@@ -1,0 +1,126 @@
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.91it/s]
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+🤖 Enhanced Gemini Hybrid-Memory Chatbot ready!
+Commands: 'quit', 'summary', 'clear', 'tokens', 'facts', 'stats'
+
+👤 You: heii
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 75.57it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 86.78it/s]
+
+🤖 Assistant: Hey there!  What's up?
+
+
+👤 You: my name is prisha
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 48.56it/s]
+INFO:__main__:Updated facts: {'name': 'Prisha'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 48.49it/s]
+
+🤖 Assistant: Hey Prisha!  Nice to meet you. What's up?
+
+
+👤 You: my favourit movie is harry potter
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 72.43it/s]
+INFO:__main__:Updated facts: {'name': 'Prisha', 'favorite_movie': 'Harry Potter'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 33.07it/s]
+
+🤖 Assistant: Oh, Harry Potter!  That's a great one! Which one is your absolute favorite of the series? 
+ I'm always curious to hear people's opinions on that.
+
+
+👤 You: n favourit character is albus dumberdore apart for potters
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 63.43it/s]
+INFO:__main__:Updated facts: {'favorite_movie': 'Harry Potter', 'favorite_character': 'Albus Dumbledore'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 42.59it/s]
+
+🤖 Assistant: Ah, Dumbledore!  Excellent choice, Prisha. He's definitely a fan favorite. 
+ What is it about him that you particularly like?  I'm always interested in hearing different perspectives on the characters.
+
+
+👤 You: but i feared dementors the most cz they take every memory of us
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 21.54it/s]
+INFO:__main__:Updated facts: {'favorite_character': 'Albus Dumbledore', 'greatest_fear': 'Dementors', 'reason_for_fear': 'They take memories'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 33.88it/s]
+
+🤖 Assistant: I can understand that, Prisha.  Dementors are truly terrifying. 
+ That sucking out of happiness and memories... it's a chilling concept. 
+  Even Dumbledore, with all his power, seemed wary of them. 
+  What specifically about the dementors scared you the most – was it the loss of memories, 
+  or the feeling of despair they inflict, or something else entirely?
+
+
+👤 You: can u tell me why pattigrew turned into scabbus and was there with ron always?
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  8.12it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 27.87it/s]
+
+🤖 Assistant: Peter Pettigrew's transformation into Scabbers wasn't exactly a magical spell, 
+more of a clever Animagus transformation.  He did it to escape detection after betraying the Potters,  
+a truly despicable act.  And yes, he was Ron's rat for quite a while, blending in perfectly.  
+It's amazing how he managed to stay hidden for so long, considering the events that transpired.  
+It highlights just how cunning and cowardly he was.  
+Thinking about it makes me appreciate Dumbledore even more – his wisdom and power were definitely needed to counteract someone 
+like Pettigrew.
+
+
+👤 You: i srsly hate him after knowing all this
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 18.97it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 52.10it/s]
+
+🤖 Assistant: Yes, it's understandable.  Peter Pettigrew's actions were truly reprehensible. 
+ The betrayal of the Potters and his years of hiding in plain sight as Scabbers are hard to forgive.  
+ It's a stark contrast to the loyalty and bravery of someone like Dumbledore, isn't it? 
+  His cowardly nature and willingness to sacrifice others for his own survival are particularly jarring.  
+  Even the fear of Dementors, while understandable, pales in comparison to the depth of his treachery.
+
+
+👤 You: so tell me characters i hate 
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 24.79it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 34.25it/s]
+
+🤖 Assistant: Well, given our last conversation, Peter Pettigrew definitely ranks high on the "hate" list for many fans.
+His betrayal was incredibly impactful, and it's hard to overlook the damage he caused. 
+Are there any other characters that spring to mind for you, perhaps ones who might not be as obviously villainous but still rubbed you the wrong way?
+
+
+👤 You: list all the characters of harry potter those i hate
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 25.89it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 51.30it/s]
+
+🤖 Assistant: Well,  besides Peter Pettigrew,  many find Dolores Umbridge incredibly loathsome. 
+Her cruelty and manipulative tactics make her a truly despicable character. 
+And then there's Bellatrix Lestrange; her unwavering loyalty to Voldemort and her sadistic nature make her terrifying. 
+Do any of those resonate with you, or are there others you particularly dislike?
+
+
+👤 You: tell me about myself n my prefrences
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 27.70it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 56.82it/s]
+
+🤖 Assistant: Well Prisha, you're a Harry Potter fan, and your favorite character is the wise and powerful Albus Dumbledore.
+You mentioned that you especially appreciate him, though I'm still waiting to hear why!  
+You also told me that your greatest fear is dementors because they steal memories, which is completely understandable given their nature.  Anything else you'd like to share about yourself or your preferences?
+
+
+👤 You: i told u about hate towards pattigrew and umbrige
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 34.85it/s]
+INFO:__main__:Updated facts: {'preferences': {'favorite_harry_potter_character': 'Albus Dumbledore', 'strong_dislike': ['Peter Pettigrew', 'Dolores Umbridge']}, 'fears': {'greatest_fear': 'dementors'}}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 30.13it/s]
+
+🤖 Assistant: Yes, you mentioned your strong dislike for Peter Pettigrew and Dolores Umbridge.  
+Their actions are certainly unforgivable.  It's interesting how such different characters can evoke such strong negative feelings.
+Pettigrew's cowardice and betrayal are shocking, while Umbridge's cruelty is insidious and chilling. 
+Is there anyone else who comes to mind, perhaps someone less overtly villainous but still intensely irritating?
+
+
+👤 You: yes lockheart is also of their kind
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 37.91it/s]
+INFO:__main__:Updated facts: {'dislikes': ['Gilderoy Lockhart']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 30.68it/s]
+
+🤖 Assistant: Yes, I can see why you'd group Lockhart with Pettigrew and Umbridge. 
+He's certainly not known for his honesty or integrity.
+His self-aggrandizement and complete lack of genuine skill are incredibly irritating, 
+unlike the wisdom and strength you admire in Dumbledore.  
+While not as directly harmful as the others, his arrogance and willingness to exploit others for personal gain make him a rather unpleasant character.  
+He lacks the redeeming qualities even someone like Snape possesses, albeit hidden.

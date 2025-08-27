@@ -1,0 +1,118 @@
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  4.30it/s]
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+🤖 Enhanced Gemini Hybrid-Memory Chatbot ready!
+Commands: 'quit', 'summary', 'clear', 'tokens', 'facts', 'stats'
+
+👤 You: hello prisha this side
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 25.54it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 82.44it/s]
+
+🤖 Assistant: Hello!  How can I help you today?
+
+
+👤 You:  Yesterday I went hiking in the mountains with my dog.
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  8.03it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'interests': ['hiking', 'dogs'], 'activities': ['hiking in the mountains']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 39.03it/s]
+
+🤖 Assistant: That sounds lovely!  Did you and your dog enjoy the hike?  What was the scenery like?
+
+
+👤 You: By the way, my favorite color is green
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 20.20it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'favorite_color': 'green', 'owns_dog': True, 'interests': ['hiking']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 49.16it/s]
+
+🤖 Assistant: That's a lovely color!  Green is so calming and reminds me of lush forests perfect for a hike with your dog.  Did you see any particularly vibrant green foliage on your recent mountain hike?
+
+
+👤 You: Let's talk about programming now.
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 27.09it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'favorite_color': 'green'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 37.56it/s]
+
+🤖 Assistant: Okay, let's shift gears!  What aspects of programming are you interested in discussing?  Perhaps you'd like to talk about a specific language, a project you're working on, or maybe just some general programming concepts?
+
+
+👤 You:  What is polymorphism in OOP?
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 25.32it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 36.70it/s]
+
+🤖 Assistant: Polymorphism, in the context of object-oriented programming, is a powerful concept that lets you treat objects of different classes in a uniform way.  Think of it like this: you might have a hiking trail (a class) and different types of trails (subclasses), some mountainous, some flat.  Even though they are different, you can still interact with them all using a single, general "hike" method.  Each trail type (subclass) will implement the "hike" method in its own specific way, reflecting the unique characteristics of that trail.  That's polymorphism – many forms.  It makes your code more flexible and easier to maintain.  Is there anything specific about polymorphism you'd like to explore further, or perhaps another aspect of OOP you'd like to discuss?
+
+⚠️  High token usage: 336
+
+👤 You: Do you remember my favorite color?
+INFO:HistoryAwareChatbot:Token limit exceeded (338). Compressing history...
+INFO:HistoryAwareChatbot:History compressed successfully
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 22.86it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'favorite_color': 'green', 'interests': ['hiking', 'dogs', 'object-oriented programming']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 32.22it/s]
+
+🤖 Assistant: Yes, I do!  Green, right?  It's a great color for enjoying the outdoors, especially on a hike in the mountains with your dog.  Did you happen to see any interesting green plants or scenery on your last hike?
+
+⚠️  High token usage: 297
+
+👤 You: I’m learning guitar and practicing chords every evening.
+INFO:HistoryAwareChatbot:Token limit exceeded (309). Compressing history...
+INFO:HistoryAwareChatbot:History compressed successfully
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  6.60it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'interests': ['guitar', 'hiking'], 'goals': ['learning guitar']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 31.24it/s]
+
+🤖 Assistant: That's fantastic!  Learning guitar is a rewarding experience.  It's quite different from object-oriented programming, but I bet the discipline you're developing with your chord practice will translate well to your coding projects.  Do you find that focusing on one helps you focus on the other?  Maybe after a long evening of practicing chords, you find you have a clearer mind to tackle some programming challenges?
+
+⚠️  High token usage: 231
+
+👤 You:  What outdoor activity did I mention earlier?
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 27.02it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'interests': ['guitar', 'hiking'], 'activities': ['practicing guitar chords every evening', 'hiking in the mountains with dog'], 'goals': ['learning guitar']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 40.08it/s]
+
+🤖 Assistant: You mentioned hiking in the mountains with your dog!  We were just talking about how much you enjoyed the scenery and the vibrant green colors.
+
+⚠️  High token usage: 270
+
+👤 You:  What musical hobby did I tell you about?
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 23.03it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'interests': ['hiking', 'mountain scenery', 'dogs'], 'hobbies': ['playing guitar']}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 39.24it/s]
+
+🤖 Assistant: You told me you're learning to play the guitar and practice chords every evening.  How's that going?  Are you working on any particular songs?
+
+⚠️  High token usage: 315
+
+👤 You: 👤 You: My name is Prisha Gupta. I love reading Harry Potter and learning AI concepts. I have a pet cat named Luna. My favorite color is lavender. I’m currently studying Industrial IoT and plan to graduate in June 2025.
+
+👤 You: I also enjoy traveling, especially to mountains and beaches. I dislike noisy crowded places and prefer calm environments. My favorite movie series is Harry Potter, and I find Dumbledore very inspiring. I strongly dislike Dementors. My ideal Patronus would be a deer.
+INFO:HistoryAwareChatbot:Token limit exceeded (363). Compressing history...
+INFO:HistoryAwareChatbot:History compressed successfully
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 20.45it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'name': 'Prisha Gupta', 'pet': 'cat named Luna', 'favorite_color': 'lavender', 'interests': ['reading Harry Potter', 'learning AI concepts', 'Industrial IoT'], 'graduation_date': 'June 2025'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 23.22it/s]
+
+🤖 Assistant: That's wonderful, Prisha Gupta!  It sounds like you have a lot going on.  Industrial IoT is a fascinating field –  I imagine that’s quite different from hiking in the mountains with your dog, though both offer a lot of interesting challenges.  I'm glad to hear you're making progress on your guitar practice too.  And  lavender is a beautiful color!  Quite a change from the greens of the mountain trails.  Do you find that your love of reading Harry Potter helps you relax after a long day of studying?
+
+⚠️  High token usage: 292
+
+👤 You: 
+👤 You: INFO:HistoryAwareChatbot:Token limit exceeded (348). Compressing history...
+INFO:HistoryAwareChatbot:History compressed successfully
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 58.45it/s]
+INFO:HistoryAwareChatbot:Updated facts: {'travel_preferences': ['mountains', 'beaches'], 'environment_preference': 'calm environments', 'dislikes': ['noisy crowded places', 'Dementors'], 'favorite_movie_series': 'Harry Potter', 'inspiring_character': 'Dumbledore', 'ideal_patronus': 'deer'}
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 26.18it/s]
+
+🤖 Assistant: That's interesting, Prisha!  A deer Patronus is a lovely choice – peaceful and graceful, much like your preference for calm environments over crowded places.  I can see why you'd find Dumbledore inspiring; his wisdom and strength are certainly admirable qualities.  And I completely understand the dislike of Dementors – they're rather unsettling!  Do you prefer hiking in the mountains or relaxing on the beach more?  Perhaps you could combine your love of traveling with your Industrial IoT studies someday – maybe researching sustainable tourism practices in mountain regions?
+
+⚠️  High token usage: 380
+
+👤 You: 👤 You: Can you summarize my hobbies, preferences, and dislikes from the earlier conversation?
+
+INFO:HistoryAwareChatbot:Token limit exceeded (399). Compressing history...
+INFO:HistoryAwareChatbot:History compressed successfully
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  8.68it/s]
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 32.83it/s]
+
+🤖 Assistant: So far, we've talked about your love for playing guitar – you practice every evening, and are aiming to get better. You also really enjoy hiking in the mountains with your dog.  You prefer calm environments and dislike noisy, crowded places.  And definitely, Dementors are a big no!  Oh, and lavender is your favorite color.  Does that cover everything?
