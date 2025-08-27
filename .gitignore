@@ -1,2 +1,6 @@
 .venv
 heii
+*.env
+/Genai/langchain/talkie/faiss_index/
+**/__pycache__/
+chatbot.ipynb
