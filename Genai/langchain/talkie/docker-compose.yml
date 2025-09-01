@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - ./.env:/app/.env
+      - ./res:/app/res
+      - ./faiss_index:/app/faiss_index
+    stdin_open: true
+    tty: true
+    profiles:
+      - interactive
